@@ -133,14 +133,14 @@ En la DM2, los tejidos periféricos (músculo y adipocito) responden de forma de
 | Intercambio plasma–intersticio | $R_3$ | Resistencia en serie con $C$ |
 | Retardo dinámico de la señalización (PI3K/Akt) | $L$ | Inercia: resistencia a cambios rápidos en la respuesta del tejido |
 | Resistencia periférica a la captación de glucosa | $R_2$ | Oposición a la utilización de glucosa por músculo y adipocito |
-| Flujo asociado con la captación periférica | $F_s(t)$ | Corriente de la rama $L$–$R_2$ |
+| Flujo asociado con la captación periférica | $F_s(t)$ | Corriente de la rama $L$– $R_2$ |
 | Glucemia | $V_s(t)$ | Salida normalizada en el nodo de unión de $R_1$, $C$ y $L$ |
 
 La tabla anterior es la **tabla de correspondencias fisiológicas** del proyecto.
 
 ### Circuito eléctrico equivalente
 
-El circuito se muestra en el diagrama biológico ([`Diagrama_Biorender.jpeg`](./Diagrama_Biorender.jpeg)) y como esquema manuscrito en [`Analisis_matematico.pdf`](./Analisis_matematico_.pdf).
+El circuito se muestra en el diagrama biológico ([`Diagrama_Biorender.jpeg`](./Diagrama_Biorender.jpeg)) y como esquema manuscrito en [`Analisis_matematico .pdf`](./Analisis_matematico_.pdf).
 
 ### Topología del circuito
 
