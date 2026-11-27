@@ -140,7 +140,7 @@ La tabla anterior es la **tabla de correspondencias fisiológicas** del proyecto
 
 ### Circuito eléctrico equivalente
 
-El circuito se muestra en el diagrama biológico ([`Diagrama_Biorender.jpeg`](./Diagrama_Biorender.jpeg)) y como esquema manuscrito en [`Analisis_matematico_.pdf`](./Analisis_matematico_.pdf).
+El circuito se muestra en el diagrama biológico ([`Diagrama_Biorender.jpeg`](./Diagrama_Biorender.jpeg)) y como esquema manuscrito en [`Analisis_matematico.pdf`](./Analisis_matematico_.pdf).
 
 ### Topología del circuito
 
