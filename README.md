@@ -17,8 +17,6 @@ El caso de estudio representa de forma simplificada la **regulación de la gluce
 - Gustavo Ortega Odabachea — No. de control 23212223 — L23212223@tectijuana.edu.mx  
 - Vanessa Yamileth Suarez Ceja — No. de control 23212236 — L23212236@tectijuana.edu.mx  
 - Gabriel Fernando Trejo Paz — No. de control 23212239 — L23212239@tectijuana.edu.mx  
-
-**Autor de los códigos y simulaciones (MATLAB, Simulink y Python):** Gustavo Ortega Odabachea  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
 
 ---
