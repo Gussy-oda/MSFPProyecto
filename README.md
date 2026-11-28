@@ -142,9 +142,6 @@ El esquema manuscrito del circuito, con $V_e$, $V_s$, $F_e$, $F_s$, $F_c$, nodos
 | $C$ | $100\,\mu\mathrm{F}$ | $100\,\mu\mathrm{F}$ |
 
 En el caso aumentan $R_2$ (resistencia periférica a la captación), $R_3$ (intercambio plasma–intersticio) y $L$ (retardo de la señalización), mientras que $R_1$ y $C$ se conservan.
-
-> **Nota de consistencia.** La página 4 del análisis manuscrito enlista el caso con $L=100\,\mathrm{mH}$ y $C=500\,\mu\mathrm{F}$. Sin embargo, los coeficientes que ahí se usan ($0.55s^2+12{,}000.5s+11{,}000$), los de la función de transferencia en Simulink y Python, y las ganancias de los bloques EID del modelo (`L = 500e-3`, `1/C = 1/100e-6`) corresponden a $L=500\,\mathrm{mH}$ y $C=100\,\mu\mathrm{F}$. Este README adopta estos últimos valores. Se recomienda corregir la lista de parámetros en el manuscrito.
-
 [Volver al contenido](#contenido)
 
 ---
