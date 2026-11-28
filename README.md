@@ -1,5 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Gussy-oda/MSFPProyecto)
 
+
 # Proyecto — Modelado y control del sistema endócrino: diabetes mellitus tipo 2 (resistencia a la insulina)
 
 Repositorio académico de la asignatura **Modelado de Sistemas Fisiológicos**, correspondiente al programa de **Ingeniería Biomédica** del Tecnológico Nacional de México / Instituto Tecnológico de Tijuana. El proyecto integra interpretación fisiológica, analogía eléctrica, formulación matemática, análisis temporal y de estabilidad, control clásico, simulación computacional (MATLAB, Simulink, Simscape Electrical y Python) y diseño de un controlador analógico.
