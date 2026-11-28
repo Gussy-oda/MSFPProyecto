@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Proyecto: Sistema Endócrino con enfermedad Diabetes tipo
+  2.
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gustavo
+    family-names: Ortega Odabachea
+    email: l23212223@tectijuana.edu.mx
+    affiliation: TecNM / IT Tijuana
+repository-code: 'https://github.com/Gussy-oda/MSFPProyecto'
+keywords:
+  - sistema endócrino.
+  - diabetes mellitus tipo 2
+  - resistencia a la insulina
+  - glucemia
+  - analogía eléctrica
+  - circuito RLC de segundo orden
+  - función de transferencia
+  - controlador integral
+  - MATLAB
+  - Simulink
+  - Simscape Electrical
+  - Python
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-27'
