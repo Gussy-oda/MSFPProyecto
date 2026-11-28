@@ -14,8 +14,8 @@ El caso de estudio representa de forma simplificada la **regulación de la gluce
 **Programa:** Ingeniería Biomédica  
 **Equipo:**  
 - Gustavo Ortega Odabachea — No. de control 23212223 — L23212223@tectijuana.edu.mx  
-- Vanessa Yamileth Suarez Ceja — No. de control 23212236  
-- Gabriel Fernando Trejo Paz — No. de control 23212239  
+- Vanessa Yamileth Suarez Ceja — No. de control 23212236 — L23212236@tectijuana.edu.mx  
+- Gabriel Fernando Trejo Paz — No. de control 23212239 — L23212239@tectijuana.edu.mx  
 
 **Autor de los códigos y simulaciones (MATLAB, Simulink y Python):** Gustavo Ortega Odabachea  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
@@ -51,7 +51,7 @@ El caso de estudio representa de forma simplificada la **regulación de la gluce
 <a id="resumen"></a>
 ## Resumen
 
-El proyecto desarrolla un procedimiento de **modelado, análisis, simulación y control** de la regulación de la glucemia en la diabetes mellitus tipo 2 (DM2). La ingesta de alimentos $V_e(t)$ se transmite a través de una resistencia $R_1$ (absorción intestinal de glucosa) hacia un nodo donde convergen dos ramas en paralelo: una rama $C$–$R_3$ (volumen de distribución extracelular e intercambio plasma–intersticio) y una rama $L$–$R_2$ (retardo dinámico de la señalización de la insulina, vía PI3K/Akt, y resistencia periférica a la captación de glucosa). La salida $V_s(t)$ representa la **glucemia** normalizada.
+El proyecto desarrolla un procedimiento de **modelado, análisis, simulación y control** de la regulación de la glucemia en la diabetes mellitus tipo 2 (DM2). La ingesta de alimentos $V_e(t)$ se transmite a través de una resistencia $R_1$ (absorción intestinal de glucosa) hacia un nodo donde convergen dos ramas en paralelo: una rama $C$– $R_3$ (volumen de distribución extracelular e intercambio plasma–intersticio) y una rama $L$– $R_2$ (retardo dinámico de la señalización de la insulina, vía PI3K/Akt, y resistencia periférica a la captación de glucosa). La salida $V_s(t)$ representa la **glucemia** normalizada.
 
 Se estudian dos configuraciones. En el **control** ($R_2=R_3=1\,\mathrm{k}\Omega$, $L=100\,\mathrm{mH}$, $C=100\,\mu\mathrm{F}$) y en el **caso** ($R_2=R_3=10\,\mathrm{k}\Omega$, $L=500\,\mathrm{mH}$, $C=100\,\mu\mathrm{F}$). A partir de las leyes de Kirchhoff y la transformada de Laplace se obtiene una función de transferencia de segundo orden. Ambos sistemas resultan estables y sobreamortiguados, pero el caso se estabiliza en $0.9091\,\mathrm{V}$, frente a $0.5\,\mathrm{V}$ del control, y su polo dominante es más lento. Esto reproduce de forma cualitativa la **hiperglucemia sostenida** de la resistencia a la insulina.
 
