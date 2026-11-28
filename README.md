@@ -126,7 +126,7 @@ En la DM2, los tejidos periféricos (músculo y adipocito) responden de forma de
 
 - Rama principal: fuente $V_e(t)$ en serie con $R_1$.
 - Nodo posterior a $R_1$ (donde se mide $V_s$): dos ramas en paralelo hacia la referencia, $C$ en serie con $R_3$ y $L$ en serie con $R_2$.
-- $F_e(t)=F_c(t)+F_s(t)$, donde $F_c$ es la corriente de la rama $C$–$R_3$ y $F_s$ la de la rama $L$–$R_2$.
+- $F_e(t)=F_c(t)+F_s(t)$, donde $F_c$ es la corriente de la rama $C$– $R_3$ y $F_s$ la de la rama $L$– $R_2$.
 - Dos elementos independientes de almacenamiento de energía ($C$ y $L$) implican un sistema de **segundo orden**.
 
 El esquema manuscrito del circuito, con $V_e$, $V_s$, $F_e$, $F_s$, $F_c$, nodos y referencia, se encuentra en la primera página de [`Analisis_matematico.pdf`](./Analisis_matematico.pdf).
