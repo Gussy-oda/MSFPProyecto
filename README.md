@@ -231,7 +231,7 @@ $$
 F_s(t)=\frac{1}{R_2}\left[V_s(t)-L\frac{dF_s(t)}{dt}\right].
 $$
 
-Los desarrollos manuscritos se conservan en [`Analisis_matematico.pdf`](./Analisis_matematico.pdf). Los coeficientes coinciden con los bloques de función de transferencia de `Proyecto.slx` y con `Trejo23212239.py`.
+Los desarrollos manuscritos se conservan en [`Analisis_matematico.pdf`](./Analisis_matematico.pdf). Los coeficientes coinciden con los bloques de función de transferencia de `Proyecto.slx` y con `Ortega23212223.py`.
 
 [Volver al contenido](#contenido)
 
@@ -318,7 +318,7 @@ El subsistema **Caso** incorpora además el bloque *PID Controller* en retroalim
 
 ### Cuaderno de MATLAB
 
-[`Trejo23212239.mlx`](./Trejo23212239.mlx) abre el modelo, configura la simulación, recupera las señales y las grafica con la función `plotsignals`, que exporta la figura en PDF vectorial. Su exportación está en [`Trejo23212239.pdf`](./Trejo23212239.pdf).
+[`Ortega23212223.mlx`](./Ortega23212223.mlx) abre el modelo, configura la simulación, recupera las señales y las grafica con la función `plotsignals`, que exporta la figura en PDF vectorial. Su exportación está en [`Ortega23212223.pdf`](./Ortega23212223.pdf).
 
 ```matlab
 open_system('Proyecto')
@@ -403,7 +403,7 @@ $$
 | $C_r$ (propuesto) | $1\,\mu\mathrm{F}$ |
 | $R_e$ | $2141.7330\,\Omega$ |
 
-Con estos valores, $C_{PID}(s)=1/(0.002142\,s)$, idéntico al usado en `Trejo23212239.py`.
+Con estos valores, $C_{PID}(s)=1/(0.002142\,s)$, idéntico al usado en `Ortega23212223.py`.
 
 [Volver al contenido](#contenido)
 
@@ -412,7 +412,7 @@ Con estos valores, $C_{PID}(s)=1/(0.002142\,s)$, idéntico al usado en `Trejo232
 <a id="python"></a>
 ## Reproducción en Python
 
-[`Trejo23212239.py`](./Trejo23212239.py) utiliza `numpy`, `matplotlib` y `python-control`:
+[`Ortega23212223.py`](./Ortega23212223.py) utiliza `numpy`, `matplotlib` y `python-control`:
 
 1. Define el vector temporal y el escalón en $t=1\,\mathrm{s}$.
 2. Construye las funciones de transferencia del control y del caso con `ctrl.tf` y calcula sus polos con `np.roots`.
@@ -481,7 +481,7 @@ La parte inferior del diagrama contrasta el **control** (captación eficaz de gl
 | Polos | $-6.6674;\ -14\,998.3326$ | $-0.9167;\ -21\,818.1742$ | $-21\,854.19;\ -388.37;\ -1.0002$ |
 | Estabilidad | Estable | Estable | Estable |
 
-Los valores de lazo abierto coinciden con el análisis manuscrito. Los polos de lazo cerrado y los valores de la columna del controlador provienen de la ejecución de `Trejo23212239.py`.
+Los valores de lazo abierto coinciden con el análisis manuscrito. Los polos de lazo cerrado y los valores de la columna del controlador provienen de la ejecución de `Ortega23212223.py`.
 
 Con $k_I=466.9116$, el lazo cerrado es
 
@@ -497,7 +497,7 @@ Al seguir como referencia la respuesta del control, el caso con controlador conv
 
 | Resultado | Archivo |
 |---|---|
-| Reporte del cuaderno MATLAB | [`Trejo23212239.pdf`](./Trejo23212239.pdf) |
+| Reporte del cuaderno MATLAB | [`Ortega23212223.pdf`](./Ortega23212223.pdf) |
 | Figura exportada por MATLAB/Simulink | [`Respuesta_matlab.pdf`](./Respuesta_matlab.pdf) |
 | Figura exportada por Python | [`step_python.pdf`](./step_python.pdf) |
 | Evidencia de sintonización | [`Ganancias.jpeg`](./Ganancias.jpeg) |
@@ -513,8 +513,8 @@ Las implementaciones solicitadas deben describir la misma dinámica:
 | Ecuaciones integro-diferenciales | `Proyecto.slx` → `Vs(t): Control EID` / `Caso EID` | Incluida |
 | Funciones de transferencia | `Proyecto.slx` → `Vs(t): Control FT` / `Caso FT` | Incluida |
 | Circuito equivalente | `Proyecto.slx` → `Vs(t): Control CE` / `Caso CE` (Simscape Electrical) | Incluida |
-| Cuaderno MATLAB | `Trejo23212239.mlx` | Incluida |
-| Código Python | `Trejo23212239.py` | Incluida |
+| Cuaderno MATLAB | `Ortega23212223.mlx` | Incluida |
+| Código Python | `Ortega23212223.py` | Incluida |
 
 Las diferencias entre MATLAB/Simulink y Python pueden atribuirse a:
 
@@ -614,9 +614,9 @@ flowchart TD
 ```text
 .
 ├── README.md                              # Reporte y guía de reproducción
-├── Trejo23212239.mlx                      # Cuaderno MATLAB
-├── Trejo23212239.pdf                      # Exportación del cuaderno
-├── Trejo23212239.py                       # Implementación Python
+├── Ortega23212223.mlx                     # Cuaderno MATLAB
+├── Ortega23212223.pdf                     # Exportación del cuaderno
+├── Ortega23212223.py                      # Implementación Python
 ├── Proyecto.slx                           # Modelo Simulink/Simscape
 ├── Proyecto_latex.pdf                     # Reporte técnico en LaTeX (modelado cualitativo y justificación)
 ├── Analisis_matematico.pdf                # Análisis matemático manuscrito
@@ -651,7 +651,7 @@ python -m pip install numpy matplotlib control
 
 ### Secuencia de reproducción en MATLAB/Simulink
 
-1. Colocar `Trejo23212239.mlx` y `Proyecto.slx` en el mismo directorio.
+1. Colocar `Ortega23212223.mlx` y `Proyecto.slx` en el mismo directorio.
 2. Abrir el cuaderno y verificar `StopTime = 10`, `Solver = ode15s` y `MaxStep = 1e-3`.
 3. Ejecutar todas las secciones.
 4. Revisar las señales `Ve`, `Vex`, `Vey` y `PID` en el *Workspace*.
@@ -660,7 +660,7 @@ python -m pip install numpy matplotlib control
 ### Secuencia de reproducción en Python
 
 ```bash
-python Trejo23212239.py
+python Ortega23212223.py
 ```
 
 Se imprimen las funciones de transferencia del control y del caso, sus polos, los valores de $C_r$ y $R_e$ y las funciones de transferencia del controlador y del lazo cerrado, y se genera `step_python.pdf`.
