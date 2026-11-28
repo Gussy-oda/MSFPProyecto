@@ -629,7 +629,6 @@ flowchart TD
 ├── Ortega23212223.py                      # Implementación Python
 ├── Proyecto.slx                           # Modelo Simulink/Simscape
 ├── Analisis_matematico.pdf               # Análisis matemático manuscrito
-├── Ensayo_grafico.pdf                     # Ensayo gráfico (póster)
 ├── Ensayo_grafico.png                     # Imagen del ensayo gráfico (se muestra en el README)
 ├── Proyecto_Bitacora1.pdf                 # Bitácora del proyecto
 ├── CITATION.cff                           # Datos de citación
