@@ -474,14 +474,8 @@ La parte inferior del diagrama contrasta el **control** (captación eficaz de gl
 
 ![Ensayo gráfico del proyecto: Sistema endócrino y DM2](./Ensayo_grafico.png)
 
-*Versión en PDF (vectorial, para zoom): [`Ensayo_grafico.pdf`](./Ensayo_grafico.pdf).*
 
-El resumen visual del proyecto está en [`Ensayo_grafico.pdf`](./Ensayo_grafico.pdf). Incluye logos de la institución, carrera, asignatura y docente; título e integrantes con número de control y correo; descripción del sistema fisiológico y de la enfermedad; diagrama fisiológico; circuito equivalente e interpretación de sus componentes; señal de entrada y su justificación; diferencias entre control y caso; modelo matemático y función de transferencia; simulaciones en lazo abierto y cerrado; diseño del controlador e interpretación de su acción; conclusiones; limitaciones; referencias y el código QR de este repositorio.
-
-La bitácora del proyecto, con las metas, el circuito en Simulink y el análisis de la analogía y de la señal de entrada, está en [`Proyecto_Bitacora1.pdf`](./Proyecto_Bitacora1.pdf).
-
-> **Nota sobre la señal de entrada.** La simulación usa un escalón unitario en $t=1\,\mathrm{s}$, que evidencia la ganancia estacionaria y la constante de tiempo dominante. La bitácora señala que un pulso rectangular finito sería más fisiológico para representar una carga de glucosa y observar la recuperación; queda como mejora.
-
+El resumen visual del proyecto incluye logos de la institución, carrera, asignatura y docente; título e integrantes con número de control y correo; descripción del sistema fisiológico y de la enfermedad; diagrama fisiológico; circuito equivalente e interpretación de sus componentes; señal de entrada y su justificación; diferencias entre control y caso; modelo matemático y función de transferencia; simulaciones en lazo abierto y cerrado; diseño del controlador e interpretación de su acción; conclusiones; limitaciones; referencias y el código QR de este repositorio.
 [Volver al contenido](#contenido)
 
 ---
