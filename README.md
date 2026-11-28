@@ -553,7 +553,7 @@ Las diferencias entre MATLAB/Simulink y Python pueden atribuirse a:
 <a id="conclusiones"></a>
 ## Conclusiones
 
-1. El circuito $R_1$–[$C$+$R_3$]∥[$L$+$R_2$] reproduce cualitativamente la absorción, distribución, retardo de señalización y resistencia a la captación asociados con la regulación de la glucemia, y resulta en un sistema dinámico de segundo orden.
+1. El circuito $R_1$ – [ $C$ + $R_3$]∥[$L$ + $R_2$] reproduce cualitativamente la absorción, distribución, retardo de señalización y resistencia a la captación asociados con la regulación de la glucemia, y resulta en un sistema dinámico de segundo orden.
 2. El control y el caso son estables y sobreamortiguados, con valores finales de $0.5\,\mathrm{V}$ y $0.9091\,\mathrm{V}$, respectivamente. El aumento de $R_2$, $R_3$ y $L$ reproduce la hiperglucemia sostenida de la resistencia a la insulina.
 3. Las representaciones por ecuaciones, función de transferencia y circuito equivalente, junto con MATLAB y Python, permiten verificar de forma cruzada la dinámica del sistema.
 4. Un controlador integral con $k_I=466.9116$ lleva la respuesta del caso hacia la referencia del control con error final nulo, sin sobreimpulso y con margen de fase de $90.1^\circ$.
